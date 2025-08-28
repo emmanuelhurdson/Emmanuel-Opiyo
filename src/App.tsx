@@ -8,16 +8,24 @@ import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <Navigation />
-      <main>
-        <div id="home">
+      <main className="flex-grow">
+        <section id="home">
           <Hero />
-        </div>
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>

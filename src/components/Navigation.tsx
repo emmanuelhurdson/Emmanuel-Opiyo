@@ -12,7 +12,7 @@ const navItems = [
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
