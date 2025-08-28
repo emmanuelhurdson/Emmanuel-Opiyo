@@ -12,7 +12,7 @@ const projects = [
     domain: "wrapvisualizer.com",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Three.js"],
     liveUrl: "https://wrapvisualizer.com",
-    githubUrl: null,
+    githubUrl: undefined,
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects = [
     domain: "money.ke",
     technologies: ["React", "PHP", "MySQL", "Material-UI"],
     liveUrl: "https://money.ke",
-    githubUrl: null,
+    githubUrl: undefined,
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const projects = [
     domain: "luviabeauty.co.ke",
     technologies: ["React", "Tailwind CSS", "Swiper.js", "PHP"],
     liveUrl: "https://luviabeauty.co.ke",
-    githubUrl: null,
+    githubUrl: undefined,
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const projects = [
     domain: "oaks.delivery",
     technologies: ["React", "Node.js", "MySQL", "Material-UI"],
     liveUrl: "https://oaks.delivery",
-    githubUrl: null,
+    githubUrl: undefined,
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const projects = [
     domain: "youth.go.ke",
     technologies: ["React", "TypeScript", "Tailwind CSS", "PHP"],
     liveUrl: "https://youth.go.ke",
-    githubUrl: null,
+    githubUrl: undefined,
   },
 ];
 
